@@ -1,0 +1,33 @@
+body{
+    margin: 20px;
+    font-family: tahoma;
+    background-color: #f5f3f4;
+}
+.card{
+    background-color: #dfeaff;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0px auto;
+    text-align: center;
+    transition: transform 0.3s ease-out;
+    box-shadow: 2px 5px 5px solid rgba(0, 0, 0, 0.39);
+    border-radius: 9px;
+    
+
+
+}
+.card:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+    box-shadow: 2px 2px 5px solid rgba(0, 0, 0, 0.315);
+    box-shadow: 15px 17px 9px -15px rgba(0, 0, 0, 0.17);
+}
+h2{
+    text-align: center;
+}
+h2:hover{
+   color: #ff6000;
+   cursor: pointer;
+}
